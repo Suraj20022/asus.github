@@ -271,6 +271,7 @@ body{
         font-size: 0.7rem;
         color: black;
        }
+      
 
            
         /* ==========================---------------
@@ -335,36 +336,50 @@ body{
 
 
 
-
-
-       @media (max-width:630px) {
-        .social-links{
-            margin-top:180px;
+       /* extra extra large */
+    @media (max-width:1900px) {
+        .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 1rem;
            }
-        
-       }
-
-        @media (max-width:400px) {
-            .height{
-                height: 100px;
-                background-size: 800px;
-  
-              }
-              .social-links{
-                margin-top:240px;
-               }
-
-              
-    
-              
+           .asus-decoration{
+            text-decoration: none;
+            font-size: 1.3rem;
         }
+        
+    }
 
+       /* extra large */
+       @media (max-width:1200px) {
+        .proart-head{
+          display: none;
+        }
+        .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 0.7rem;
+           }
+    }
 
-    
+      /* large */
+      @media (max-width:990px) {
+        .height{
+            height: 400px;
+          }
+          .asus-text h1{
+            padding-top: 20px;
+          }
+          .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 0.6rem;
+           }
+           .snapdragon{
+            width: 100%;
+        }
+        
+    }
 
-
-    /* mediuam */
-    @media (max-width:768px) {
+     /* mediuam */
+     @media (max-width:768px) {
         .carousel-inner img{
             height: 200px;
         }
@@ -398,15 +413,28 @@ body{
         .Game-Bundle{
             width: 100%;
           
-        }
-   
-    
-         
-       
+        } 
         
+    .asus-decoration{
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 300px;
+    
+    }
     }
 
-    /* extra small */
+
+       @media (max-width:630px) {
+        .social-links{
+            margin-top:180px;
+           }
+        
+       }
+
+       /* extra small */
     @media (max-width:576px) {
         /* .carousel-inner img{
             height: 50px;
@@ -415,9 +443,6 @@ body{
         .center{
             font-size: 0.6rem;
         }
-        .height{
-            height: 100px;
-          }
           .asus-fixed{
             width: 98%;
             margin: 10px auto;
@@ -443,44 +468,54 @@ body{
        }
        .privacy-term{
         display: flex;
-        /* gap: 20px; */
-        /* padding: 20px; */
+      
        }
-        
+       .Qualcomm{
+        margin: 0 0 0 40px;
+        font-size: 0.9rem;
+       }
+       .Shop-text h6{
+        font-size: 0.6rem;
+       }
     }
+
+        @media (max-width:400px) {
+            .height{
+                background-size: 800px;
+  
+              }
+              .social-links{
+                margin-top:240px;
+               }
+               .Qualcomm{
+                margin: 0 0 0 40px;
+                font-size: 0.8rem;
+               }
+               .Shop-text h6{
+                font-size: 0.5rem;
+               }
+               .carousel-inner img{
+                width: 100%;
+                height: 200px;
+            
+            }
+             
+              
+    
+              
+        }
+
+
+    
+
+
+   
+
+    
  
 
-    /* large */
-    @media (max-width:990px) {
-        .height{
-            height: 400px;
-          }
-          .asus-text h1{
-            padding-top: 20px;
-          }
-          .Qualcomm{
-            margin: 0 0 0 70px;
-            font-size: 0.7rem;
-           }
-        
-    }
+  
 
-    /* extra large */
-    @media (max-width:1200px) {
-        .proart-head{
-          display: none;
-        }
-        .Qualcomm{
-            margin: 0 0 0 70px;
-            font-size: 0.7rem;
-           }
-    }
+ 
 
-    /* extra extra large */
-    @media (max-width:1900px) {
-        .Qualcomm{
-            margin: 0 0 0 70px;
-            font-size: 1rem;
-           }
-        
-    }
+    
