@@ -1,0 +1,486 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ font-size: 62.5%;
+}
+
+
+ /* ==========================---------------
+        HEADER-SECTION-START
+        ---------------=======================  */
+
+        header{
+            width: 100%;
+        }
+
+        .proart-head{
+            display: flex;
+            justify-content: space-between;
+            padding: 1px 40px;
+            border-bottom: 1px solid black;
+            font-weight: 0;
+            font-size: 1rem;
+        }
+
+        .art-add > div{
+            margin: 0 10px;
+            opacity: 0.7;
+            padding: 0 2px 0 0;
+            border-right:1px solid black ;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 40px;
+            font-size: 0.8rem;
+        }
+        .flex{
+            display: flex;
+            width: 100%;
+        }
+        .navbar-brand img{
+            width: 80px;
+        }
+   
+
+
+       
+/* ==========================---------------
+    HEADER-SECTION-END
+    ---------------=======================  */
+
+    .center{
+        text-align: center;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .asus-account{
+        background:#015ec5;
+        height: 45px;
+    }
+
+    .asus-account a{
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .asus-adobe{
+        margin-top: 30px;
+    }
+
+    .carousel-inner img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+    
+    }
+
+
+    /* ==========================---------------
+        ASUS-BLOG-SECTION START START
+        ---------------=======================  */
+
+        .asus-fixed span{
+            font-weight: 40;
+        }
+    
+      .asus-fixed{
+        width: 100%;
+        margin-top: 50px;
+        box-sizing: border-box;
+      }
+    
+
+      .asus-book{
+        width: 100%;
+        display: flex;
+
+      }
+
+      .asus-col{
+        width: 100%;
+        margin: 10px;
+      }
+      .height{
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+      }
+      .asus-zenbook{
+        background-image: url(../image/asus-vivobook.jpg);
+      }
+      .asus-vivo{
+        background-image: url(../image/vivo-book-3.jpg);
+ 
+      }
+      .rog-strix{
+        background-image: url(../image/vivo-book-4.jpg);
+    
+      }
+      .asus-game{
+        background-image: url(../image/asus-zeenbook.jpg);
+ 
+      }
+
+      .asus-text{
+        text-align: center;
+      }
+      .asus-text h1{
+        padding-top: 50px;
+      }
+
+    .asus-decoration{
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+   
+    /* ==========================---------------
+        BANNER-SECTION end
+        ---------------=======================  */
+
+            /* ==========================---------------
+        CAMPAINGNS-SECTION start
+        ---------------=======================  */
+        .Campaingns{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 2rem;
+        }
+
+        .Campaingns-Events{
+            display: flex;
+        }
+        .Game-Bundle{
+            width: 33%;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+        .Game-Bundle img{
+            width: 100%;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        .hot{
+            text-align: center;
+            font-size: 25px;
+            text-transform: capitalize;
+            font-weight: 800;
+            margin-top: 140px;
+        }
+        .png{
+            font-size: 60px;
+            justify-content: space-evenly;
+            margin-left: 5%;
+            display: flex;
+            margin-top: 80px;
+        }
+        .png p{
+            font-size: 1rem;
+            text-transform: capitalize;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+
+        .ROG-Phone{
+            background-color: #f5f5f5;
+            width: 100%;
+            position: absolute;
+
+        }
+        .snapdragon{
+            width: 95%;
+            margin: 40px auto;
+            display: flex;
+        }
+        .mobile-selse{
+            width: 35%;
+            background-color: #fff;
+            height: 550px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        .mobile-img{
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        .line{
+            text-align: center;
+            padding-bottom:20px;
+            margin-top: 20px;
+        }
+       .Qualcomm{
+        margin: 0 0 0 70px;
+        font-size: 0.9rem;
+       }
+
+     
+       .Shipping-img{
+        display: flex;
+       }
+
+       .Free-Shippings h6{
+        font-size: 0.7rem;
+       }
+       .Free-Shippings{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+       }
+       .border{
+        border-bottom: 1px solid black;
+        width: 100%;
+       }
+       .responsive{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+       }
+
+       .Shop-Learn{
+        width: 100%;
+        display: flex;
+        margin-top:60px ;
+       }
+       .shop-width{
+        width: 16%;
+        height: 400px;
+        margin: auto;
+        padding: 0 10px 0 10px;
+       }
+
+       .Shop-text a{
+        display: block;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 0.7rem;
+        color: black;
+       }
+
+           
+        /* ==========================---------------
+        Campaingns-Events-SECTION  END
+        ---------------=======================  */
+    
+
+       /* social-links */
+
+       .social-links{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        padding-bottom: 30px;
+        color: gray;
+       }
+       .social-links i{
+        padding: 14px 16px;
+        margin: 0 5px 5px;
+        border: 1px solid gray;
+        font-size: 1rem;
+        border-radius: 50%;
+        transition: all 0.4s;
+       }
+       
+
+       .social-links i:hover{
+        background-color: #000;
+        color: #fff;
+       }
+  
+
+
+       .privacy{
+        display: flex;
+        justify-content:space-between;
+       }
+       .privacy-term{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+       }
+       .privacy-term a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: gray;
+       }
+       .borders{
+        border-left: 1px solid black;
+       }
+       .globe-png{
+        display: flex;
+       }
+       .globe-png i{
+        font-size: 1rem;
+        padding: 3px 3px;
+       }
+
+
+
+
+
+
+
+
+
+       @media (max-width:630px) {
+        .social-links{
+            margin-top:180px;
+           }
+        
+       }
+
+        @media (max-width:400px) {
+            .height{
+                height: 100px;
+                background-size: 800px;
+  
+              }
+              .social-links{
+                margin-top:240px;
+               }
+
+              
+    
+              
+        }
+
+
+    
+
+
+    /* mediuam */
+    @media (max-width:768px) {
+        .carousel-inner img{
+            height: 200px;
+        }
+        .asus-book{
+            display: block;
+            margin-top: 10px;
+          }
+          .asus-col{
+            width: 100%;
+            margin: 0px;
+            margin-top: 10px;
+          }
+          .mobile-selse-3{
+            display: none;
+        }
+        .mobile-selse{
+            width: 100%;
+        }
+        .responsive{
+            display: block;
+            /* width: 30%; */
+           }
+           .About-Us{
+            display: none;
+           }
+          
+
+           .Campaingns-Events {
+            display: block;
+        }
+        .Game-Bundle{
+            width: 100%;
+          
+        }
+   
+    
+         
+       
+        
+    }
+
+    /* extra small */
+    @media (max-width:576px) {
+        /* .carousel-inner img{
+            height: 50px;
+        } */
+
+        .center{
+            font-size: 0.6rem;
+        }
+        .height{
+            height: 100px;
+          }
+          .asus-fixed{
+            width: 98%;
+            margin: 10px auto;
+          }
+        .snapdragon{
+            display: block;
+        }
+        .mobile-selse{
+            width: 90%;
+            margin:10px auto;
+        }
+        .Free-Shippings {
+            display: block;
+            width: 100%;
+            padding-left: 20px;
+    }
+    .mobile-selse-3{
+        display: block;
+    }
+    .privacy{
+        display: block;
+        justify-content:space-between;
+       }
+       .privacy-term{
+        display: flex;
+        /* gap: 20px; */
+        /* padding: 20px; */
+       }
+        
+    }
+ 
+
+    /* large */
+    @media (max-width:990px) {
+        .height{
+            height: 400px;
+          }
+          .asus-text h1{
+            padding-top: 20px;
+          }
+          .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 0.7rem;
+           }
+        
+    }
+
+    /* extra large */
+    @media (max-width:1200px) {
+        .proart-head{
+          display: none;
+        }
+        .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 0.7rem;
+           }
+    }
+
+    /* extra extra large */
+    @media (max-width:1900px) {
+        .Qualcomm{
+            margin: 0 0 0 70px;
+            font-size: 1rem;
+           }
+        
+    }
